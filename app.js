@@ -1,8 +1,10 @@
 const a = 5;
 const b = 2;
-const myName = "nico";
+let myName = "nico"; //let으로 두면 나중에 변수 변경 가능
 
 console.log(a + b);
 console.log(a * b);
 console.log(a / b);
 console.log("hello" + myName);
+
+myName = "nicolas"
