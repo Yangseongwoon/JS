@@ -1,1 +1,1 @@
-Javascripit is very fun
+Javascripit is very fun!
