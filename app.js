@@ -1,11 +1,7 @@
-const a = 5;
-const b = 2;
-let myName = "nico"; //let으로 두면 나중에 변수 변경 가능
+const daysOfweek = ["mon" , "tue" , "wed" , "thu" , "fri" , "sat"]
+// Get Item from Array
+console.log(daysOfweek);
 
-console.log(a + b);
-console.log(a * b);
-console.log(a / b);
-console.log("hello" + myName);
-
-myName = "nicolas"
-console.log("your new name is " + myName)
+// Add one more day to the array
+daysOfweek.push("sun");
+console.log(daysOfweek);
